@@ -1,0 +1,6 @@
+framework module Pods_RIBs_Todo_RIBs_TodoUITests {
+  umbrella header "Pods-RIBs_Todo-RIBs_TodoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
