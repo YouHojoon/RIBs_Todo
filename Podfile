@@ -9,7 +9,10 @@ target 'RIBs_Todo' do
   pod 'RxSwift', '~> 4.0'
   pod 'RxCocoa', '~> 4.0'
   pod 'RIBs', '~> 0.9'
-
+  pod 'RxDataSources'
+  pod 'SnapKit'
+  pod 'RxViewController'
+  
   target 'RIBs_TodoTests' do
     inherit! :search_paths
     # Pods for testing

@@ -17,6 +17,27 @@
 		06DC3E1D26CD6D45004EFA76 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E1926CD6D45004EFA76 /* RootBuilder.swift */; };
 		06DC3E1E26CD6D45004EFA76 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E1A26CD6D45004EFA76 /* RootInteractor.swift */; };
 		06DC3E2026CD6ED1004EFA76 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E1F26CD6ED1004EFA76 /* AppComponent.swift */; };
+		06DC3E2626CD7143004EFA76 /* LoggedOutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E2226CD7143004EFA76 /* LoggedOutRouter.swift */; };
+		06DC3E2726CD7143004EFA76 /* LoggedOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E2326CD7143004EFA76 /* LoggedOutViewController.swift */; };
+		06DC3E2826CD7143004EFA76 /* LoggedOutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E2426CD7143004EFA76 /* LoggedOutBuilder.swift */; };
+		06DC3E2926CD7143004EFA76 /* LoggedOutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E2526CD7143004EFA76 /* LoggedOutInteractor.swift */; };
+		06DC3E2B26CD727D004EFA76 /* RootComponent+LoggedOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E2A26CD727D004EFA76 /* RootComponent+LoggedOut.swift */; };
+		06DC3E3026CD7F84004EFA76 /* LoggedInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E2D26CD7F84004EFA76 /* LoggedInRouter.swift */; };
+		06DC3E3126CD7F84004EFA76 /* LoggedInBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E2E26CD7F84004EFA76 /* LoggedInBuilder.swift */; };
+		06DC3E3226CD7F84004EFA76 /* LoggedInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E2F26CD7F84004EFA76 /* LoggedInInteractor.swift */; };
+		06DC3E3426CD7FE1004EFA76 /* RootComponet+LoggedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E3326CD7FE1004EFA76 /* RootComponet+LoggedIn.swift */; };
+		06DC3E3A26CD8647004EFA76 /* TodoListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E3626CD8647004EFA76 /* TodoListRouter.swift */; };
+		06DC3E3B26CD8647004EFA76 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E3726CD8647004EFA76 /* TodoListViewController.swift */; };
+		06DC3E3C26CD8647004EFA76 /* TodoListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E3826CD8647004EFA76 /* TodoListBuilder.swift */; };
+		06DC3E3D26CD8647004EFA76 /* TodoListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E3926CD8647004EFA76 /* TodoListInteractor.swift */; };
+		06DC3E4026CD89E8004EFA76 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E3F26CD89E8004EFA76 /* UserDefaultManager.swift */; };
+		06DC3E4226CD94C6004EFA76 /* LoggedInComponent+TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E4126CD94C6004EFA76 /* LoggedInComponent+TodoList.swift */; };
+		06DC3E4826CE24A3004EFA76 /* DetailContentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E4426CE24A3004EFA76 /* DetailContentRouter.swift */; };
+		06DC3E4926CE24A3004EFA76 /* DetailContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E4526CE24A3004EFA76 /* DetailContentViewController.swift */; };
+		06DC3E4A26CE24A3004EFA76 /* DetailContentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E4626CE24A3004EFA76 /* DetailContentBuilder.swift */; };
+		06DC3E4B26CE24A3004EFA76 /* DetailContentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E4726CE24A3004EFA76 /* DetailContentInteractor.swift */; };
+		06DC3E4D26CE259B004EFA76 /* LoggedInComponent+DetailContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E4C26CE259B004EFA76 /* LoggedInComponent+DetailContent.swift */; };
+		06DC3E5026CE2A55004EFA76 /* MemoStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC3E4F26CE2A55004EFA76 /* MemoStream.swift */; };
 		15BDCFB204ABA2DDCCEB5DBC /* Pods_RIBs_Todo_RIBs_TodoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31866B86A529AEB38FD5105 /* Pods_RIBs_Todo_RIBs_TodoUITests.framework */; };
 		774C8E7112D67396158C3F3E /* Pods_RIBs_TodoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8551E0CB5752EBBDF9D1C46C /* Pods_RIBs_TodoTests.framework */; };
 		D84A4965277627D2FEE932D2 /* Pods_RIBs_Todo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722CB79F700EEA114EFA0F4B /* Pods_RIBs_Todo.framework */; };
@@ -56,6 +77,27 @@
 		06DC3E1926CD6D45004EFA76 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
 		06DC3E1A26CD6D45004EFA76 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
 		06DC3E1F26CD6ED1004EFA76 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
+		06DC3E2226CD7143004EFA76 /* LoggedOutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutRouter.swift; sourceTree = "<group>"; };
+		06DC3E2326CD7143004EFA76 /* LoggedOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutViewController.swift; sourceTree = "<group>"; };
+		06DC3E2426CD7143004EFA76 /* LoggedOutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutBuilder.swift; sourceTree = "<group>"; };
+		06DC3E2526CD7143004EFA76 /* LoggedOutInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutInteractor.swift; sourceTree = "<group>"; };
+		06DC3E2A26CD727D004EFA76 /* RootComponent+LoggedOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootComponent+LoggedOut.swift"; sourceTree = "<group>"; };
+		06DC3E2D26CD7F84004EFA76 /* LoggedInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInRouter.swift; sourceTree = "<group>"; };
+		06DC3E2E26CD7F84004EFA76 /* LoggedInBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInBuilder.swift; sourceTree = "<group>"; };
+		06DC3E2F26CD7F84004EFA76 /* LoggedInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInInteractor.swift; sourceTree = "<group>"; };
+		06DC3E3326CD7FE1004EFA76 /* RootComponet+LoggedIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootComponet+LoggedIn.swift"; sourceTree = "<group>"; };
+		06DC3E3626CD8647004EFA76 /* TodoListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListRouter.swift; sourceTree = "<group>"; };
+		06DC3E3726CD8647004EFA76 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		06DC3E3826CD8647004EFA76 /* TodoListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListBuilder.swift; sourceTree = "<group>"; };
+		06DC3E3926CD8647004EFA76 /* TodoListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListInteractor.swift; sourceTree = "<group>"; };
+		06DC3E3F26CD89E8004EFA76 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		06DC3E4126CD94C6004EFA76 /* LoggedInComponent+TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoggedInComponent+TodoList.swift"; sourceTree = "<group>"; };
+		06DC3E4426CE24A3004EFA76 /* DetailContentRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContentRouter.swift; sourceTree = "<group>"; };
+		06DC3E4526CE24A3004EFA76 /* DetailContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContentViewController.swift; sourceTree = "<group>"; };
+		06DC3E4626CE24A3004EFA76 /* DetailContentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContentBuilder.swift; sourceTree = "<group>"; };
+		06DC3E4726CE24A3004EFA76 /* DetailContentInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContentInteractor.swift; sourceTree = "<group>"; };
+		06DC3E4C26CE259B004EFA76 /* LoggedInComponent+DetailContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoggedInComponent+DetailContent.swift"; sourceTree = "<group>"; };
+		06DC3E4F26CE2A55004EFA76 /* MemoStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStream.swift; sourceTree = "<group>"; };
 		722CB79F700EEA114EFA0F4B /* Pods_RIBs_Todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RIBs_Todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8551E0CB5752EBBDF9D1C46C /* Pods_RIBs_TodoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RIBs_TodoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		880CC46EB25EB10A4DDCBAC5 /* Pods-RIBs_TodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RIBs_TodoTests.debug.xcconfig"; path = "Target Support Files/Pods-RIBs_TodoTests/Pods-RIBs_TodoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +162,12 @@
 		06DC3DDD26CD682F004EFA76 /* RIBs_Todo */ = {
 			isa = PBXGroup;
 			children = (
+				06DC3E4E26CE2A47004EFA76 /* Model */,
+				06DC3E4326CE247E004EFA76 /* DetailContent */,
+				06DC3E3E26CD89D4004EFA76 /* Utils */,
+				06DC3E3526CD8634004EFA76 /* TodoList */,
+				06DC3E2C26CD7F72004EFA76 /* LoggedIn */,
+				06DC3E2126CD711C004EFA76 /* LoggedOut */,
 				06DC3E1626CD6D26004EFA76 /* Root */,
 				06DC3E0E26CD6B80004EFA76 /* App */,
 				06DC3DE726CD6830004EFA76 /* Assets.xcassets */,
@@ -163,8 +211,71 @@
 				06DC3E1826CD6D45004EFA76 /* RootViewController.swift */,
 				06DC3E1926CD6D45004EFA76 /* RootBuilder.swift */,
 				06DC3E1A26CD6D45004EFA76 /* RootInteractor.swift */,
+				06DC3E2A26CD727D004EFA76 /* RootComponent+LoggedOut.swift */,
+				06DC3E3326CD7FE1004EFA76 /* RootComponet+LoggedIn.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		06DC3E2126CD711C004EFA76 /* LoggedOut */ = {
+			isa = PBXGroup;
+			children = (
+				06DC3E2226CD7143004EFA76 /* LoggedOutRouter.swift */,
+				06DC3E2326CD7143004EFA76 /* LoggedOutViewController.swift */,
+				06DC3E2426CD7143004EFA76 /* LoggedOutBuilder.swift */,
+				06DC3E2526CD7143004EFA76 /* LoggedOutInteractor.swift */,
+			);
+			path = LoggedOut;
+			sourceTree = "<group>";
+		};
+		06DC3E2C26CD7F72004EFA76 /* LoggedIn */ = {
+			isa = PBXGroup;
+			children = (
+				06DC3E2D26CD7F84004EFA76 /* LoggedInRouter.swift */,
+				06DC3E2E26CD7F84004EFA76 /* LoggedInBuilder.swift */,
+				06DC3E2F26CD7F84004EFA76 /* LoggedInInteractor.swift */,
+				06DC3E4126CD94C6004EFA76 /* LoggedInComponent+TodoList.swift */,
+				06DC3E4C26CE259B004EFA76 /* LoggedInComponent+DetailContent.swift */,
+			);
+			path = LoggedIn;
+			sourceTree = "<group>";
+		};
+		06DC3E3526CD8634004EFA76 /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				06DC3E3626CD8647004EFA76 /* TodoListRouter.swift */,
+				06DC3E3726CD8647004EFA76 /* TodoListViewController.swift */,
+				06DC3E3826CD8647004EFA76 /* TodoListBuilder.swift */,
+				06DC3E3926CD8647004EFA76 /* TodoListInteractor.swift */,
+			);
+			path = TodoList;
+			sourceTree = "<group>";
+		};
+		06DC3E3E26CD89D4004EFA76 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				06DC3E3F26CD89E8004EFA76 /* UserDefaultManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		06DC3E4326CE247E004EFA76 /* DetailContent */ = {
+			isa = PBXGroup;
+			children = (
+				06DC3E4426CE24A3004EFA76 /* DetailContentRouter.swift */,
+				06DC3E4526CE24A3004EFA76 /* DetailContentViewController.swift */,
+				06DC3E4626CE24A3004EFA76 /* DetailContentBuilder.swift */,
+				06DC3E4726CE24A3004EFA76 /* DetailContentInteractor.swift */,
+			);
+			path = DetailContent;
+			sourceTree = "<group>";
+		};
+		06DC3E4E26CE2A47004EFA76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06DC3E4F26CE2A55004EFA76 /* MemoStream.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		685AABD4E84657886DAB8D5D /* Frameworks */ = {
@@ -446,11 +557,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				06DC3E1B26CD6D45004EFA76 /* RootRouter.swift in Sources */,
+				06DC3E3026CD7F84004EFA76 /* LoggedInRouter.swift in Sources */,
+				06DC3E3A26CD8647004EFA76 /* TodoListRouter.swift in Sources */,
+				06DC3E4D26CE259B004EFA76 /* LoggedInComponent+DetailContent.swift in Sources */,
+				06DC3E3D26CD8647004EFA76 /* TodoListInteractor.swift in Sources */,
+				06DC3E2726CD7143004EFA76 /* LoggedOutViewController.swift in Sources */,
+				06DC3E4826CE24A3004EFA76 /* DetailContentRouter.swift in Sources */,
 				06DC3DDF26CD682F004EFA76 /* AppDelegate.swift in Sources */,
+				06DC3E4B26CE24A3004EFA76 /* DetailContentInteractor.swift in Sources */,
 				06DC3E1C26CD6D45004EFA76 /* RootViewController.swift in Sources */,
+				06DC3E3226CD7F84004EFA76 /* LoggedInInteractor.swift in Sources */,
+				06DC3E4926CE24A3004EFA76 /* DetailContentViewController.swift in Sources */,
+				06DC3E4A26CE24A3004EFA76 /* DetailContentBuilder.swift in Sources */,
 				06DC3E1D26CD6D45004EFA76 /* RootBuilder.swift in Sources */,
+				06DC3E2626CD7143004EFA76 /* LoggedOutRouter.swift in Sources */,
 				06DC3E1E26CD6D45004EFA76 /* RootInteractor.swift in Sources */,
+				06DC3E5026CE2A55004EFA76 /* MemoStream.swift in Sources */,
+				06DC3E3126CD7F84004EFA76 /* LoggedInBuilder.swift in Sources */,
+				06DC3E4226CD94C6004EFA76 /* LoggedInComponent+TodoList.swift in Sources */,
+				06DC3E2926CD7143004EFA76 /* LoggedOutInteractor.swift in Sources */,
 				06DC3E2026CD6ED1004EFA76 /* AppComponent.swift in Sources */,
+				06DC3E4026CD89E8004EFA76 /* UserDefaultManager.swift in Sources */,
+				06DC3E3B26CD8647004EFA76 /* TodoListViewController.swift in Sources */,
+				06DC3E2B26CD727D004EFA76 /* RootComponent+LoggedOut.swift in Sources */,
+				06DC3E3C26CD8647004EFA76 /* TodoListBuilder.swift in Sources */,
+				06DC3E2826CD7143004EFA76 /* LoggedOutBuilder.swift in Sources */,
+				06DC3E3426CD7FE1004EFA76 /* RootComponet+LoggedIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
